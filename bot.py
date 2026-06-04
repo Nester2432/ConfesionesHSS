@@ -125,9 +125,9 @@ async def estado(
 ):
 
     if BOT_ACTIVO:
-        mensaje = "🟢 ACTIVADO"
+        mensaje = "🟢 ACTIVADO."
     else:
-        mensaje = "🔴 DESACTIVADO"
+        mensaje = "🔴 DESACTIVADO."
 
     await update.message.reply_text(
         f"Estado actual:\n\n{mensaje}"
